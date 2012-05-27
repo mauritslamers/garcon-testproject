@@ -1,0 +1,14 @@
+GARCON testproject
+
+To install:
+
+git clone git://github.com/mauritslamers/garcon-testproject
+git submodule update --init
+npm install
+
+node gettingstarted.js
+
+then in browser:
+http://localhost/todos_three
+
+

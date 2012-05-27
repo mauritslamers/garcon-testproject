@@ -1,0 +1,6 @@
+[submodule "getting-started"]
+	path = getting-started
+	url = git://github.com/sproutcore/getting-started
+[submodule "frameworks/sproutcore"]
+	path = frameworks/sproutcore
+	url = git://github.com/sproutcore/sproutcore
