@@ -8,7 +8,8 @@ npm install
 
 node gettingstarted.js
 
-then in browser:
-http://localhost/todos_three
+Then in your browser:
+
+http://localhost:8000/todos_three
 
 
