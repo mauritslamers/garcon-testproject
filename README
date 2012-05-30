@@ -1,10 +1,19 @@
 GARCON testproject
 
+Prerequisites:
+
+You need to have a compiler installed. 
+You might have to install the cairo package if it is not already on your system.
+The easiest way to do this under OSX is to install it through HomeBrew.
+
+
 To install:
 
 git clone git://github.com/mauritslamers/garcon-testproject
 git submodule update --init
 npm install
+
+To run:
 
 node gettingstarted.js
 
