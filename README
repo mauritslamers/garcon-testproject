@@ -4,8 +4,22 @@ Prerequisites:
 
 You need to have a compiler installed. 
 You might have to install the cairo package if it is not already on your system.
-The easiest way to do this under OSX is to install it through HomeBrew.
 
+For Mac OSX Lion (10.7) users: the right version of cairo is on your system
+
+For Mac OSX Snow Leopard users (10.6) (and probably older version too):
+The version installed is too old. There is a easy way to circumvent this problem, 
+which is to use HomeBrew to install the right version.
+
+- If you already did npm install, first remove the node_module directory from the root
+folder of the project. 
+- install cairo with homebrew.
+- next follow the install instructions below, but run the 'npm install' step as follows:
+
+PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/Cellar/cairo/1.10.2/lib/pkgconfig npm install
+
+This will make sure that the version installed by homebrew is picked up by pkg-config 
+(pkg-config selects the cairo version used)
 
 To install:
 
