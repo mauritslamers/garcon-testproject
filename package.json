@@ -7,7 +7,7 @@
   "author"        : "Maurits Lamers <mauritslamers@gmail.com>",
   "contributors"  : ["Jeff Pittman"],
   "dependencies"  : {
-    "garcon": "git://github.com/mauritslamers/garcon.git#chance"
+    "garcon": "git://github.com/mauritslamers/garcon.git"
   },
   "version"       : "0.0.1",
   "engines"       : {"node": "0.6.x"}
