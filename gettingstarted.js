@@ -1,13 +1,13 @@
-var g = require('garcon');
+var g = require('../garcon');
 
 var server = g.Server.create({
   //loadSCTests: true,
   //REPL: true,
-  proxies: [{ prefix: '/',
-    host: '192.168.178.29',
-    port: 8080,
-    proxyPrefix: '/'
-  }]
+  // proxies: [{ prefix: '/',
+  //   host: '192.168.178.29',
+  //   port: 8080,
+  //   proxyPrefix: '/'
+  // }]
 });
 
 var stdHtmlBody	= [
