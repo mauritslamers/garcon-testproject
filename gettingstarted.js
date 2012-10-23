@@ -1,4 +1,4 @@
-var g = require('../garcon');
+var g = require('garcon');
 
 var server = g.Server.create({
   //loadSCTests: true,
