@@ -4,3 +4,6 @@
 [submodule "frameworks/sproutcore"]
 	path = frameworks/sproutcore
 	url = git://github.com/sproutcore/sproutcore
+[submodule "showcase"]
+	path = showcase
+	url = git://github.com/sproutcore/showcase.git

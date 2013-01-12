@@ -1,3 +1,4 @@
+//var g = require('../garcon');
 var g = require('garcon');
 
 var server = g.Server.create({
@@ -57,6 +58,27 @@ var todosThree = g.App.create({
   ]
 });
 
+var showcase = g.App.create({
+  name: 'showcase',
+  theme: 'ace',
+  htmlBody: stdHtmlBody,
+  htmlHead: '<title>Sproutcore Showcase</title>',
+  hasSC: true,
+  urlPrefix: "/",
+  configSC: {
+    //version: "1.9.1"
+  },
+  frameworks: [
+    { path: 'frameworks/sproutcore/themes/empty_theme'},
+    { path: 'frameworks/sproutcore/themes/ace', combineStylesheets: true },
+    { path: 'frameworks/sproutcore/frameworks/debug', combineStylesheets: true },
+    { path: 'frameworks/sproutcore/frameworks/testing', combineStylesheets: true },
+    { path: 'frameworks/sproutcore/frameworks/yuireset', combineStylesheets: true },
+    { path: 'showcase'}
+  ]
+});
+
 server.addApp(todosOne);
 server.addApp(todosThree);
+server.addApp(showcase);
 server.run();
