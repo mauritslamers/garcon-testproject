@@ -17,9 +17,48 @@ Then in your browser:
 http://localhost:8000/todos_one
 http://localhost:8000/todos_two
 http://localhost:8000/todos_three
-http://localhost:8000/showcase
+http://localhost:8000/showcase (see instructions below)
 
 And of course: try out your projects and please let me know if anything is running different than expected.
 It would be great if you can provide a pull request, but feel free to also post issues at
 
 http://github.com/sproutcore/build-tools
+
+
+== Instructions for the showcase app ==
+
+Because of the more strict way the nodejs buildtools deal with sc_requires, the showcase app needs extra sc_requires
+in resources/views_page.js. 
+
+Before trying the showcase app, please copy the following list and paste it above the view code in 
+showcase/resources/views_page.js
+
+sc_require('views/button_views');
+sc_require('views/checkbox_views');
+sc_require('views/container_views');
+sc_require('views/date_field_views');
+sc_require('views/disclosure_views');
+sc_require('views/grid_views');
+sc_require('views/image_button_views');
+sc_require('views/image_views');
+sc_require('views/label_views');
+sc_require('views/list_views');
+sc_require('views/popup_button_views');
+sc_require('views/progress_views');
+sc_require('views/radio_views');
+sc_require('views/scroll_views');
+sc_require('views/segmented_views');
+sc_require('views/select_views');
+sc_require('views/slider_views');
+sc_require('views/source_list_views');
+sc_require('views/split_views');
+sc_require('views/stacked_views');
+sc_require('views/static_content_views');
+sc_require('views/tab_views');
+sc_require('views/text_field_views');
+sc_require('views/toolbar_views');
+sc_require('views/views_item_view');
+sc_require('views/views_list_view');
+sc_require('views/web_views');
+sc_require('views/well_views');
+sc_require('views/workspace_views');
