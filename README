@@ -14,8 +14,12 @@ node gettingstarted.js
 
 Then in your browser:
 
+http://localhost:8000/todos_one
+http://localhost:8000/todos_two
 http://localhost:8000/todos_three
+http://localhost:8000/showcase
 
 And of course: try out your projects and please let me know if anything is running different than expected.
-If you can with a pull request, but feel free to also post issues at
+It would be great if you can provide a pull request, but feel free to also post issues at
+
 http://github.com/sproutcore/build-tools
