@@ -7,8 +7,8 @@
   "author"        : "Maurits Lamers <mauritslamers@gmail.com>",
   "contributors"  : ["Jeff Pittman"],
   "dependencies"  : {
-    "garcon": "git://github.com/sproutcore/build-tools.git"
+    "garcon": "git://github.com/sproutcore/build-tools.git#node-v0.10"
   },
   "version"       : "0.0.1",
-  "engines"       : {"node": "0.8.x"}
+  "engines"       : {"node": "0.10.x"}
 }
